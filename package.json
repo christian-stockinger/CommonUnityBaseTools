@@ -1,0 +1,9 @@
+{
+    "name": "de.christian-stockinger.common-unity-tools.base",
+    "displayName": "CommonUnityBaseTools",
+    "version": "1.0.0",
+    "author": "Christian Stockinger<mail@christian-stockinger.de>",
+    "unity": "2019.3",
+    "description": "Common scripts and Tools for every Project",
+    "keywords": [ "scripts", "tools" ]
+}
