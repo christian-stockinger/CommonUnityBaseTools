@@ -4,7 +4,10 @@ using UnityEngine.Events;
 
 namespace CommonUnityBaseTools.Scripts.InspectorHelper.UntiyEvents 
 {
-    [Serializable]
+    /// <summary>
+    /// Unity Event for Int Lists
+    /// </summary>
+	[Serializable]
 	public class IntListUnityEvent : UnityEvent<List<int>>
 	{	
 	}
