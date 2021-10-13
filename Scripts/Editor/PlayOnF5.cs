@@ -1,8 +1,13 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+
+using UnityEditor;
 using UnityEditor.SceneManagement;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Packages.Editor
 {
+
     /// <summary>
     /// This class is used to start the PlayMode with F5. As it is done in VisualStudio.
     /// </summary>
@@ -20,4 +25,6 @@ namespace Packages.Editor
             EditorApplication.ExecuteMenuItem(PLAY_MENU_ITEM_PATH);
         }
     }
+
 }
+#endif
