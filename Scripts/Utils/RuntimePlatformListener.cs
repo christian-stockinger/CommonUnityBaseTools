@@ -1,14 +1,16 @@
-﻿using System.Collections.Generic;
-using Sirenix.OdinInspector;
+﻿using CommonUnityBaseTools.Scripts.Helper.SerializableDictionary;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Serialization;
 
 namespace BaseTools.Utils
 {
-    public class RuntimePlatformListener : SerializedMonoBehaviour
+    public class RuntimePlatformListener : MonoBehaviour
     {
-        public Dictionary<RuntimePlatform, UnityEvent> PlatformEvents;
+        /// <summary>
+        /// Event for Each Platform
+        /// </summary>
+        public SerializableRuntimePlatformUnityEventDictionary PlatformEvents;
+        
         [Tooltip("Gets Fired if the Current Platform is not Selected int the BuildPlatformEvents")]
         public UnityEvent OtherPlatformEvent;
     
