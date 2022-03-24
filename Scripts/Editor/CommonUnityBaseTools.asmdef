@@ -1,7 +1,9 @@
 {
     "name": "CommonUnityBaseTools.Editor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:035bf9e282378a14d991a927368452a5"
+    ],
     "includePlatforms": [
         "Editor"
     ],
