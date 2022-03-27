@@ -1,5 +1,5 @@
 {
-    "name": "de.christian-stockinger.common-unity-tools.base",
+    "name": "@christian-stockinger/common-unity-base-tools",
     "displayName": "CommonUnityBaseTools",
     "version": "1.0.0",
     "author": "Christian Stockinger<mail@christian-stockinger.de>",
