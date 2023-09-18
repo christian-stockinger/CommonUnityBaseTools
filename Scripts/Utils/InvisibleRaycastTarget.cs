@@ -18,6 +18,7 @@ public class InvisibleRaycastTarget : Graphic
     public override void SetVerticesDirty() {
     }
 
+#if UNITY_EDITOR
     [MenuItem("GameObject/UI/" + SCRIPT_NAME)]
     private static void CreateInvisibileyRaycastObjectMenu(MenuCommand menuCommand)
     {
@@ -33,4 +34,5 @@ public class InvisibleRaycastTarget : Graphic
         go.AddComponent<InvisibleRaycastTarget>();
         
     }
+#endif
 }
